@@ -1,0 +1,83 @@
+  body {
+    font-family:helvetica;
+  }
+  * {
+    margin:0;
+    padding:0;
+  }
+  body {
+    margin:20px;
+    color:#444;
+  }
+  body > div {
+    margin:40px 0 40px;
+    position:relative;
+    padding:0 0 20px;
+    width:896px;
+  }
+  h1 {
+    text-transform:capitalize;
+    letter-spacing:-1px;
+    font-size:1.2em;
+    color:#000;
+    position:absolute;
+    top:-24px;
+    right:0;
+    background-color:#eee;
+    padding:4px;
+    z-index:-10;
+  }
+  ul {
+    list-style:none;
+    width:900px;
+    padding:5px;
+    overflow:hidden;
+    background: #eee;
+  }
+  li {
+    font-size:14px;
+    float:left;
+    width:70px;
+    height:70px;
+    padding:5px;
+    background:#000;
+    margin:0 10px 10px 0;
+  	cursor: pointer;
+    color:#888;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    border:5px solid transparent;
+  }
+  .active {
+    color:#fff;
+    font-weight:bold;
+    background:#333;
+  }
+  .head.orange {
+    background:#ff8b40;
+  }
+  .head.red {
+    background:#fe3f44;
+  }
+  .head.green {
+    background:#42e73a;
+  }
+  .head.blue {
+    background:#34d1b2;
+  }
+  /* TODO: show that node simultaneusly belongs to more than one selection */
+  .orange {
+    border-top-color: #ff6400;
+  }
+  .red {
+    border-right-color: #FD0006;
+  }
+  .green {
+    border-bottom-color: #0ACF00;
+  } 
+  .blue {
+    border-left-color: #00A383;
+  }
